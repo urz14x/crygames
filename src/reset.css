@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Reset css */
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+a:active {
+  color: inherit;
+}
+button,
+a {
+  cursor: pointer;
+}

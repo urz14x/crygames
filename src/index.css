@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-btn {
+    @apply block px-8 md:px-4 lg:px-8 py-4 font-cg_font_primary_regular hover:text-gray-900;
+  }
+
+
+  .menu-list {
+      @apply  font-cg_font_primary_bold text-cg_color_primary;
+  }
+}
+
+@font-face {
+  font-family: "Euclid Circular A Regular";
+  src: url("./assets/fonts/Euclid-Circular-A-Regular.ttf");
+}
+@font-face {
+  font-family: "Euclid Circular A Bold";
+  src: url("./assets/fonts/Euclid-Circular-A-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Euclid Circular A Semibold";
+  src: url("./assets/fonts/Euclid-Circular-A-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Euclid Circular A Bold Italic";
+  src: url("./assets/fonts/Euclid-Circular-A-Bold-Italic.ttf");
+}

@@ -1,0 +1,17 @@
+.hamburger {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.line {
+  display: block;
+  background-color: #252525;
+  width: 30px;
+  height: 3px;
+  border-radius: 4px;
+  margin: 8px 0;
+  transition: ease-in-out .1s
+}
+.hamburger.active .line:nth-child(2){
+    width: 16px;
+}
