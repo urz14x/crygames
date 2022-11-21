@@ -54,9 +54,10 @@ const Topup: React.FC = () => {
         </h1>
         {/* Card */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          {lists.map((list: TLists) => {
+          {lists.map((list: TLists, id: number) => {
             return (
               <Card
+                key={id}
                 link={list.link}
                 name={list.name}
                 publisher={list.publisher}
