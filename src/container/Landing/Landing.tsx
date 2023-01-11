@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Landing.css";
 import images from "../../assets";
 const Landing: React.FC = () => {
   return (
@@ -26,24 +27,29 @@ const Landing: React.FC = () => {
             <p className="menu-list">🎫 Voucher (Google play, Garena Shell)</p>
             <p className="menu-list">📱 Pulsa - All Operator</p>
           </article>
-          <div className="flex flex-1 items-center w-auto mx-auto sm:mx-0 sm:w-2/6 md:w-2/3 lg:w-2/6 rounded-md  bg-gradient-to-r from-[#8A2BE2] to-[#4A01E0] font-cg_font_primary_regular  text-gray-50">
-            <NavLink to="/topup" className=" px-5 py-3">
-              Lihat List harga
-            </NavLink>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-4 h-4 mr-2"
+          <div className=" w-auto mx-auto sm:mx-0 sm:w-2/6 md:w-2/3 lg:w-2/6 rounded-md  bg-gradient-to-r from-[#8A2BE2] to-[#4A01E0] font-cg_font_primary_regular  text-gray-50">
+            <NavLink
+              to="/topup"
+              className="translate-button px-5 py-3 flex items-center justify-center gap-2"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5"
-              />
-            </svg>
+              <span>Lihat List harga</span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-5 h-5 mr-2 icon-button transition-all"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </span>
+            </NavLink>
           </div>
         </div>
         <div>

@@ -1,0 +1,3 @@
+.translate-button:hover .icon-button {
+  transform: translateX(0.325rem);
+}

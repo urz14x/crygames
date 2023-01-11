@@ -6,6 +6,8 @@ import FF from "../container/Topup/Lists/FF";
 import ML from "../container/Topup/Lists/ML";
 import PB from "../container/Topup/Lists/PB";
 import Topup from "../container/Topup/Topup";
+import Garena from "../container/Voucher/Lists/Garena";
+import GooglePlay from "../container/Voucher/Lists/GooglePlay";
 import Voucher from "../container/Voucher/Voucher";
 
 const index: React.FC = () => {
@@ -20,6 +22,8 @@ const index: React.FC = () => {
       <Route path="/topup/callofduttymobile" element={<COD />} />
       /* VOUCHER */
       <Route path="/voucher" element={<Voucher />} />
+      <Route path="/voucher/googleplay" element={<GooglePlay />} />
+      <Route path="/voucher/garenashell" element={<Garena />} />
       /* HALAMAN TIDAK DITEMUKAN */
       <Route
         path="*"
